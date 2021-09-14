@@ -1,0 +1,62 @@
+.logo{
+    vertical-align:left;
+  }
+.toolbar {
+    background-color: #b22222;
+    overflow: hidden;
+  }
+  
+  
+  .toolbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 9%;
+  text-align: center;
+  }
+  
+  
+  .toolbar a:hover {
+    background-color: #ddd;
+    color:#000000;
+  }
+  
+  .newrow {
+    display: inline-block;
+    width:400px; 
+    border:2px solid; 
+    vertical-align:bottom;
+    height : 450px;
+    padding:50px;
+    margin : 20px;
+  }
+  
+  .nextrow{
+    display: inline-block;
+    width:400px; 
+    border:2px solid; 
+    vertical-align:top;
+    height : 450px;
+    padding:30px;
+    margin : 10px;
+  
+  }
+  
+  .anotherrow{
+    display: inline-block;
+    width:400px; 
+    border:2px solid; 
+    vertical-align: top;
+    /*initial-letter-align:center;*/
+    height : 400px;
+    padding:20px;
+    margin : 10px;
+  }
+
+  a{
+    text-decoration:none;
+    color: black;
+ }

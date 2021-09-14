@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="about.css" rel="stylesheet"/>
+<script src="mail.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_QUtpfvEww86XQAvUE6gHO");
+})();
+</script>
+</head>
+<body>
+<nav id = "logo">
+<a href ="about.html">
+<img src ="p4.png" height =150 width = 170 alt ="global news"/>
+</nav>
+<header>
+      <nav class="toolbar">
+         <ul>
+            <a href="main.html">Canada</a>
+            <a href="windsor.html">Windsor</a>
+            <a href="travel.html">Travel</a>
+            <a href="politics.html">Politics</a>
+            <a href="subscritpion.html">Subscription</a>
+         </ul>
+      </nav>
+   </header>
+
+   <div class="newrow">
+   <p><h1>About The Global News</h1></p>
+   <p> Global News is the new generation news reporting website created in the year of 2021 by Rohan Meruliya and we are planning onto<br> change the whole news stereotype by bringing in new and real news not just a fake news global news is plannig onto going onto a news<br> step of doing live telecast on television.</p>
+    </div>
+
+<div class="newrow2">
+    <form class="form">
+      <p>Fill the Feedback Form</p>
+    <form action="/my-handling-form-page" method="post">
+ <ul>
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name"><br>
+  
+
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email"><br>
+  
+  
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message" cols="30" rows="10"></textarea><br>
+ 
+      <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+    
+     <button class="submit formEntry" onclick='sendMail()'>Submit</button>
+      <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2021  All rights reserved.</p>
+      </div>
+   
+ </ul>
+</form>
+   </body>
+</html>
+   
